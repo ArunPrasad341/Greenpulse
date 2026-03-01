@@ -1,4 +1,4 @@
-# 🌿 GreenPulse
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/03d7f75d-ff66-43b0-a8e0-3c7761cbe8f8" /># 🌿 GreenPulse
 ### AI-Powered Real-Time Campus Sustainability Dashboard
 
 > Built for **AMD Slingshot 2026** · Theme: **Sustainable AI & Green Tech**
@@ -28,6 +28,7 @@ npm install recharts
 npm start
 ```
 Open http://localhost:3000
+
 
 ## 🌍 SDG Alignment
 SDG 7 · SDG 6 · SDG 11 · SDG 13 · SDG 12

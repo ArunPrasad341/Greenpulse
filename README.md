@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🌿 GreenPulse
+### AI-Powered Real-Time Campus Sustainability Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Built for **AMD Slingshot 2026** · Theme: **Sustainable AI & Green Tech**
 
-## Available Scripts
+## 🚀 What it does
+GreenPulse monitors 5 sustainability domains on campus in real-time — Energy, Water, Air Quality, Carbon, and Waste — using live sensor data streams, AI anomaly detection, and immediate corrective action recommendations.
 
-In the project directory, you can run:
+## ✨ Features
+- 📊 Live streaming charts updating every 2 seconds
+- 🧠 AI Insight engine — surfaces the most critical domain alert automatically
+- ⚠️ Immediate Action Cards — URGENT / SOON / PLANNED priority with ETAs
+- 🔐 Secure login with session-based access
+- 📱 5 domain detail pages with stat boxes, charts, and AI narratives
 
-### `npm start`
+## 🛠️ Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React.js 18 + Hooks |
+| Charts | Recharts (AreaChart, LineChart) |
+| Styling | CSS-in-JS (custom dark theme) |
+| Fonts | Syne + Space Mono (Google Fonts) |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ▶️ Run Locally
+```bash
+npm install
+npm install recharts
+npm start
+```
+Open http://localhost:3000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏗️ Architecture
+```
+IoT Sensors (simulated) → React State (2s interval) → AI Threshold Engine → UI Output
+                                                    ↓
+                               OPTIMAL / ELEVATED / CRITICAL status
+                                                    ↓
+                               Immediate Action Cards (5 per domain)
+```
 
-### `npm test`
+## 🌍 SDG Alignment
+- SDG 7 — Affordable & Clean Energy
+- SDG 6 — Clean Water & Sanitation  
+- SDG 11 — Sustainable Cities
+- SDG 13 — Climate Action
+- SDG 12 — Responsible Consumption
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🏆 AMD Slingshot 2026
+**Theme:** Sustainable AI & Green Tech  
+**Team:** GreenPulse
